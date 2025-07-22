@@ -25,7 +25,19 @@ contract SubscriptionService {
         return subscribers[_user] > block.timestamp;
     }
 
+    function remainingTime(address _user) external view returns (uint256) {
+        if (subscribers[_user] > block.timestamp) {
+            return subscribers[_user] - block.timestamp;
+        } else {
+            return 0;
+        }
+    }
+
     function withdraw() external onlyOwner {
         payable(owner).transfer(address(this).balance);
     }
 }
+
+
+
+"added one function suggested by chatGPT"
