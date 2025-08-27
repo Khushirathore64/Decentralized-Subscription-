@@ -24,3 +24,5 @@ Our vision is to create a transparent, permissionless, and censorship-resistant 
 
 ![Uploading image.png…]()
 ![Screenshot 2025-06-20 122452](https://github.com/user-attachments/assets/4590f81a-3887-4010-b376-a9406a9edf86)
+
+updated.
